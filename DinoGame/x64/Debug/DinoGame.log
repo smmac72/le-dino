@@ -1,0 +1,3 @@
+﻿  Shop.cpp
+C:\Users\smmac\OneDrive\Документы\git\DinoGame\Shop.cpp(8,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  DinoGame.vcxproj -> C:\Users\smmac\OneDrive\Документы\git\DinoGame\x64\Debug\DinoGame.exe

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Dino">
+      <UniqueIdentifier>{99ef9c8d-5a61-4ef7-93ab-7f3dd1a12b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Dino">
+      <UniqueIdentifier>{94c1ccb1-b601-4fdd-aa55-6ae0715cf47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Windows">
+      <UniqueIdentifier>{62971019-670b-41e2-9358-8dc4a6aa1caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Windows">
+      <UniqueIdentifier>{71b08955-738b-4897-95f5-b292e6174582}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Dino.cpp">
+      <Filter>Исходные файлы\Dino</Filter>
+    </ClCompile>
+    <ClCompile Include="Fight.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dino.h">
+      <Filter>Файлы заголовков\Dino</Filter>
+    </ClInclude>
+    <ClInclude Include="DinoType.h">
+      <Filter>Файлы заголовков\Dino</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков\Dino</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
